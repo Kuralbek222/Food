@@ -1,0 +1,4 @@
+FROM scratch
+COPY db.json /
+RUN json-server db.json
+
